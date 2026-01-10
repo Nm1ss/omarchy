@@ -7,6 +7,7 @@
   "modules-left": ["custom/omarchy", "hyprland/workspaces"],
   "modules-center": ["clock", "custom/update", "custom/voxtype", "custom/screenrecording-indicator"],
   "modules-right": [
+	"custom/public_ip",
     "group/tray-expander",
     "bluetooth",
     "network",
@@ -36,7 +37,11 @@
       "2": [],
       "3": [],
       "4": [],
-      "5": []
+      "5": [],
+	  "6": [],
+	  "7": [],
+	  "8": [],
+	  "9": []
     }
   },
   "custom/omarchy": {
@@ -51,14 +56,13 @@
     "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
     "tooltip-format": "Omarchy update available",
     "signal": 7,
-    "interval": 21600
+    "interval": 3600
   },
 
   "cpu": {
     "interval": 5,
     "format": "󰍛",
-    "on-click": "omarchy-launch-or-focus-tui btop",
-    "on-click-right": "alacritty"
+    "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
     "format": "{:L%A %H:%M}",
@@ -100,8 +104,8 @@
   },
   "bluetooth": {
     "format": "",
-    "format-off": "󰂲",
     "format-disabled": "󰂲",
+    "format-off": "󰂲",
     "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
@@ -119,6 +123,12 @@
       "default": ["", "", ""]
     }
   },
+  "custom/public_ip" : {
+	"exec": "~/.config/waybar/scripts/public_ip.sh",
+	"interval": 30,
+	"format": "{}",
+	"on-click": "firefox 'https://ip.me'"
+  },
   "group/tray-expander": {
     "orientation": "inherit",
     "drawer": {
@@ -128,12 +138,8 @@
     "modules": ["custom/expand-icon", "tray"]
   },
   "custom/expand-icon": {
-    "format": "",
-    "tooltip": false,
-    "on-scroll-up": "",
-    "on-scroll-down": "",
-    "on-scroll-left": "",
-    "on-scroll-right": ""
+    "format": " ",
+    "tooltip": false
   },
   "custom/screenrecording-indicator": {
     "on-click": "omarchy-cmd-screenrecord",
@@ -156,6 +162,6 @@
   },
   "tray": {
     "icon-size": 12,
-    "spacing": 17
+    "spacing": 12
   }
 }
