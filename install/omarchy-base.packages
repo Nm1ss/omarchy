@@ -12,6 +12,7 @@ bluetui
 bolt
 brightnessctl
 btop
+chromium
 clang
 discord
 dnsmasq
@@ -93,7 +94,6 @@ nss-mdns
 neovim
 nvim
 obsidian
-omarchy-chromium
 omarchy-nvim
 omarchy-walker
 opencode
