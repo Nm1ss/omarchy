@@ -20,6 +20,7 @@ docker-buildx
 docker-compose
 dotnet-runtime-9.0
 dust
+element-desktop
 evince
 exfatprogs
 expac
@@ -46,6 +47,7 @@ gum
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+hashcat
 hexedit
 hypridle
 hyprland
@@ -95,6 +97,7 @@ omarchy-chromium
 omarchy-nvim
 omarchy-walker
 opencode
+openrgb
 openvpn
 pamixer
 pinta
