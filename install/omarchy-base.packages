@@ -106,6 +106,7 @@ pinta
 playerctl
 plocate
 plymouth
+proxychains-ng
 polkit-gnome
 postgresql-libs
 power-profiles-daemon
