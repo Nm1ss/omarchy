@@ -131,6 +131,7 @@ sushi
 swaybg
 swayosd
 system-config-printer
+systemd-resolvconf
 tcpdump
 tldr
 tmux
