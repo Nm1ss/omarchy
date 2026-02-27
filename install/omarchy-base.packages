@@ -4,6 +4,7 @@
 7zip
 aether
 alacritty
+alsa-utils
 asdcontrol
 avahi
 bash-completion
@@ -66,6 +67,7 @@ inxi
 iwd
 jq
 keepassxc
+kernel-modules-hook
 kvantum-qt5
 lazydocker
 lazygit
@@ -84,13 +86,13 @@ mpv
 nano
 nasm
 nautilus
+nautilus-python
 net-tools
 nextcloud-client
 nmap
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-noto-fonts-extra
 nss-mdns
 neovim
 nvim
@@ -133,8 +135,8 @@ tcpdump
 tldr
 tmux
 tree-sitter-cli
+tmux
 tobi-try
-ttf-cascadia-mono-nerd
 ttf-ia-writer
 ttf-jetbrains-mono-nerd
 typora
@@ -150,7 +152,6 @@ virt-manager
 virtualbox
 virtualbox-host-modules-arch
 waybar
-wayfreeze
 whois
 wireguard-tools
 wireless-regdb
