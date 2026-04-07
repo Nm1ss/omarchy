@@ -78,7 +78,6 @@ libqalculate
 llvm
 localsend
 luarocks
-makima-bin
 mako
 man-db
 mariadb-libs
@@ -101,7 +100,6 @@ obsidian
 omarchy-nvim
 omarchy-walker
 openbsd-netcat
-opencode
 openrgb
 openvpn
 pamixer
