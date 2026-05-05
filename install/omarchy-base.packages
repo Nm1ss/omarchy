@@ -16,11 +16,18 @@ btop
 cdrtools
 chromium
 clang
+claude-code
+cliamp
+cups
+cups-browsed
+cups-filters
+cups-pdf
 discord
 dnsmasq
 docker
 docker-buildx
 docker-compose
+dosfstools
 dotnet-runtime-9.0
 dust
 element-desktop
@@ -134,6 +141,8 @@ swayosd
 system-config-printer
 systemd-resolvconf
 tcpdump
+tesseract
+tesseract-data-eng
 tldr
 tmux
 tree-sitter-cli
